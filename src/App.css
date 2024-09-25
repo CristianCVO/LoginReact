@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+.content-container {
+  display: flex; /* Utilizamos Flexbox para crear las columnas */
+}
+
+.main-content {
+  flex: 1; /* La columna principal ocupa el espacio restante */
+  text-align: left; /* Alineamos el contenido a la izquierda */
+}
+
+.usuarios-registrados {
+  width: 700px; /* Ajusta el ancho según tus necesidades */
+}
